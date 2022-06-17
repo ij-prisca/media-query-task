@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media-query</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="side">
+            <h2>Learn to code by watching others</h2>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+        <section class="page">
+            <div class="top">
+                <p><strong>Try it free 7 days</strong>then $20/mo, thereafter</p>
+                </div>
+            <form action="submit">
+                <div class="form">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="first name" required>
+                        <label for="lastname">Lastname</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="last name" required>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder=" enter email address" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="text" id="password" required pattern="(?=.*d)(?=.*[a-z])(?.*[A-Z]).(8,)" title="please enter a valid password" placeholder="password" required>
+                    <div class="sub">
+                        <!-- <input type="button" value="Sign in" required id="sub"> -->
+                        <button type="submit" class="btn">Claim Your Free Trial</button>
+                        <p style="color: blue; margin: 10px 20px;">By clicking the button, you are agreeing to our<strong style="color: red;"> Terms and Services</strong></p>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
