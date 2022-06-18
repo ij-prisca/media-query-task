@@ -84,7 +84,9 @@ h1 p{
     margin-bottom: 20px;
     border-radius: 20px;
 }
-input:invalid {
+input:invalid, 
+input:placeholder-shown,
+input:empty, input:required {
     background: url(./icon-error.svg) no-repeat 95% 50%;
     background-size: 25px;
     border-color: red;
