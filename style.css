@@ -7,27 +7,31 @@ body{
     color: white;
     background-image: url(bg-intro-desktop.png);
     align-items: center;
-    /* display: flex; */
+    display: flex;
     justify-content: space-around;
-    /* place-items: center; */
+    place-items: center;
+    font-family: url(./https://fonts.google.com/specimen/Poppins);
+    font-weight: 500;
 }
 
- /* @media screen and (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     body{
         background-color: red;
         color: white;
-    }  */
+    }
+}
 
 main{
-    /* display: flex; */
-    /* width: 100%;
-    margin: auto; */
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
 }
 
 .btn {
     background-color: rebeccapurple;
     color: rgb(0, 255, 136);
-    padding: 16px;
+    padding: 10px;
     margin-left: 15px;
     font-size: medium;
     border: none;
@@ -39,8 +43,8 @@ main{
   }
 
   input[type=text], input[type=password], input[type=email] {
-    width: 90%;
-    /* padding: 15px; */
+    width: 80%;
+    padding: 15px; 
     margin: 5px 10px 22px 10px;
     display: inline-block;
     /* border: none; */
@@ -52,8 +56,8 @@ main{
   .top{
       background-color: hsl(248, 32%, 49%);
       margin: 0%;
-      padding-bottom: 20px;
-      border-radius: 5px;
+      padding: 10px;
+      border-radius: 20px;
       text-align: center;
   }
   .page{
@@ -63,17 +67,25 @@ main{
     width: 40%;
     margin: 0 auto;
 }
-.side{
+h1 p{
     display: flex;
     color: aliceblue;
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
+    margin-top: 80px;
+    width: 300px;
+    font-family: url(./https://fonts.google.com/specimen/Poppins);
+    font-weight: 400;
+    Font-size: 16px;
 }
 .form{
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+input:invalid {
+    background: url(./icon-error.svg) no-repeat 95% 50%;
+    background-size: 25px;
+    border-color: red;
 }
